@@ -6,6 +6,7 @@ import Banner from './components/banner/Banner'
 import BlockTitle from './components/BlockTitle'
 import Technologies from './components/technologies/Technologies'
 import ImageBackground from "../public/fundo2.jpg";
+import Social from "./components/social/Social"
 
 function App() {
 
@@ -21,6 +22,9 @@ function App() {
         titleButton="GitHub"
         alignAll="center">          
       </Banner>
+      <Social>
+        
+      </Social>
       <section className='position-relative py-5 z-index-2'>
         <img className='backgroundImage' src={ImageBackground} alt="" />
         <BlockTitle
