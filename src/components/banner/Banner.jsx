@@ -13,7 +13,7 @@ export default (props) => {
 
   return (
     <div class="py-5" style={style}>
-      <div className="container">
+      <div className="container py-lg-5 py-0">
         <div className="d-flex" style={align}>
           <div className="d-flex flex-column col-lg-6" style={align}>
             <h2>{props.title}</h2>

@@ -6,7 +6,7 @@ export default props =>{
   }
 
   return(
-    <div class="py-2" style={style}>
+    <footer class="py-2" style={style}>
       <div className="container">
         <div className="d-flex justify-content-between">
           <p className="fw-bold">
@@ -17,6 +17,6 @@ export default props =>{
           </p>
         </div>
       </div>
-    </div>
+    </footer>
   )
 }

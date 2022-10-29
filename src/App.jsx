@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Banner from './components/banner/Banner'
 import BlockTitle from './components/BlockTitle'
 import Technologies from './components/technologies/Technologies'
+import ImageBackground from "../public/fundo2.jpg";
 
 function App() {
 
@@ -20,15 +21,18 @@ function App() {
         titleButton="GitHub"
         alignAll="center">          
       </Banner>
-      <BlockTitle
-        title="TÉCNOLOGIAS"
-        align="start"
-      >
-      </BlockTitle>
-      <Technologies
-
-      >
-      </Technologies>
+      <section className='position-relative py-5 z-index-2'>
+        <img className='backgroundImage' src={ImageBackground} alt="" />
+        <BlockTitle
+          title="TÉCNOLOGIAS"
+          align="start"
+          >
+        </BlockTitle>
+        <Technologies
+          
+          >
+        </Technologies>
+      </section>
       <Footer
         copyRight="© 2022 henriqueneubert.dev"
         title="Henrique Neubert"

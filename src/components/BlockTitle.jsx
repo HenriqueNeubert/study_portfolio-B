@@ -7,7 +7,7 @@ export default props =>{
   }
 
   return(
-    <div class="py-5">
+    <div>
       <div className="container">
         <div className="d-flex" style={align}>
           <h3 className="fw-bold title--block">

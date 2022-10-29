@@ -1,17 +1,18 @@
 import React from "react";
+import "./Technologies.scss";
+import TechnologiesItem from "./TechnologiesItem"
 
-export default props =>{
-  // const style = {
-  //   backgroundColor: props.backgroundColor,
-  // }
+export default (props) => {
 
-  return(
-    <div class="py-5">
+  return (
+    <div class="technologies">
       <div className="container">
-        <h1 className="fw-bold">
-          {/* {props.title} */}
-        </h1>
+        <div className="d-flex justify-content-center row row-cols-4">
+          <TechnologiesItem>
+            
+          </TechnologiesItem>
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
