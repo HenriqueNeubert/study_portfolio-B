@@ -28,8 +28,9 @@ header{
 }
 
 .title--block{
-  padding: 2rem;
+  padding: 1.2rem;
   border: 1px solid #e337f3;
+  font-size: 1.2rem!important;
 }
 
 .mainEffect{
@@ -49,6 +50,5 @@ header{
 }
 
 .bgGradient{
-  background: rgb(178,34,191);
-  background: linear-gradient(53deg, rgba(178,34,191,0.4837962962962963) 3%, rgba(34,34,34,0.4375) 100%);
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
 }

@@ -12,12 +12,10 @@ export default props =>{
 
   return(
     <div>
-      <div className="container">
-        <div className="d-flex" style={align}>
-          <h3 className="fw-bold title--block" style={border}>
-            {props.title}
-          </h3>
-        </div>
+      <div className="d-flex" style={align}>
+        <h3 className="fw-bold title--block" style={border}>
+          {props.title}
+        </h3>
       </div>
     </div>
   )
