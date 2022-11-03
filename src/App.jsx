@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Banner from "./components/banner/Banner";
 import Technologies from "./components/technologies/Technologies";
-import Social from "./components/social/Social";
+import Social from "./components/social/Project";
 
 function App() {
   return (
