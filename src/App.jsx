@@ -11,7 +11,7 @@ import Social from "./components/social/Social"
 function App() {
 
   return (
-    <div className="App">
+    <div className="App position-relative">
       <Header
         title="Henrique Neubert"
         backgroundColor="dark">
