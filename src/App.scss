@@ -47,3 +47,8 @@ header{
     background-color: #e337f3;
   }
 }
+
+.bgGradient{
+  background: rgb(178,34,191);
+  background: linear-gradient(53deg, rgba(178,34,191,0.4837962962962963) 3%, rgba(34,34,34,0.4375) 100%);
+}

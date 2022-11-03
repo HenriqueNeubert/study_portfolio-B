@@ -1,7 +1,13 @@
 .technologies{
-  .technologies--item{
-    > div{
-      background-color: #252d35;
+  .technologiesCarroussel{
+    .technologies--item{      
+      > div{
+        background-color: rgba(37, 45, 53, 0.4);
+        svg{
+          width: 100px;
+          height: 100px;
+        }
+      }
     }
   }
 }

@@ -1,4 +1,6 @@
+import BlockTitle from '../../components/BlockTitle'
 import React from "react";
+
 import "./Social.scss"
 
 export default props =>{
@@ -7,9 +9,7 @@ export default props =>{
     <section className="py-5 social">
       <div className="container">
         <div className="d-flex">
-          <h3 className="fw-bold mb-0">
-            Social
-          </h3>
+          <BlockTitle title="REDES SOCIAL" align="start"/>
         </div>
       </div>
     </section>
