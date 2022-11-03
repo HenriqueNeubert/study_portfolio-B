@@ -17,9 +17,7 @@ function App() {
         alignAll="center"
       ></Banner>
 
-      <section className="position-relative py-5 z-index-2 bgGradient">
-        <Technologies></Technologies>
-      </section>
+      <Technologies></Technologies>
 
       <Social></Social>
 
