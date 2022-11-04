@@ -6,11 +6,15 @@ import Banner from "./components/banner/Banner";
 import Technologies from "./components/technologies/Technologies";
 import Project from "./components/project/Project";
 import Social from "./components/social/Social";
+import { BiUpArrow } from "react-icons/bi";
 
 function App() {
   return (
     <div className="App position-relative">
       <Social></Social>
+      <a className="backToTop" href="">
+        <BiUpArrow/>
+      </a>
       <Header title="Henrique Neubert" backgroundColor="dark"></Header>
       <Banner
         title="Me chamo Henrique Neubert, sou Desenvolvedor Front End Junior"

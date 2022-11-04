@@ -2,26 +2,54 @@
   position: fixed;
   z-index: 8;
   height: 100vh;
-  width: 70px;
+  width: 40px;
   left: 0;
   top: 0;
   bottom: 0;
-
-  border-right: 1.5px solid #b12a5b;
+  
+  transition: .8s;
   background-color: #212529;
+  border-right: 1.5px solid #b12a5b;
 
   svg{
-    height: 25px;
-    width: 25px;
+    width: 20px;
+    height: 20px;
+    transition: .4s;
+  }
+
+  &:hover{
+    width: 70px;
+
+    svg{
+      height: 25px;
+      width: 25px;
+    }
   }
 }
 
 .social{
   a{
     color: #fff;
-    transition: .8s;
+    transition: .4s;
     &:hover{
       color: #b12a5b;
     }
   }
+}
+
+@media (max-width: 768px) { 
+  .barLeft{
+    height: 35px;
+    width: 100vw;
+    top: auto;
+    left: 0;
+    bottom: 0;
+
+    border-right: 0;
+    border-top: 1.5px solid #b12a5b;
+    .social{
+      justify-content: center!important;
+      flex-direction: row!important;
+    }
+  }  
 }

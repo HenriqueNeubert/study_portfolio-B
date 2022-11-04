@@ -8,7 +8,7 @@ import "./Social.scss"
 export default props =>{
 
   return(
-    <section className="py-5 barLeft">
+    <section className="py-md-5 py-4 barLeft">
       <div className="social d-flex justify-content-end flex-column align-items-center
       h-100 gap-3">
         <a href="">

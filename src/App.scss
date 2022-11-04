@@ -111,3 +111,30 @@ e 10px de altura para a barra horizontal */
   border-radius: 10px!important;
   opacity: 0.6!important;
   }
+
+  .backToTop{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    margin: 15px;
+    padding: 15px;
+    
+    border: 1.5px solid transparent;
+    transition: .8s;
+    border-radius: 10px;
+    background-color: transparent;
+
+    svg{
+      width: 25px;
+      height: 25px;
+      color: #fff;
+    }
+    &:hover{
+      border: 1.5px solid #e337f3;
+      background-color: #27292b;
+      svg{
+        color: #e337f3;
+      }
+    }
+  }
