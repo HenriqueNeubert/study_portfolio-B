@@ -5,10 +5,12 @@ import Header from "./components/Header";
 import Banner from "./components/banner/Banner";
 import Technologies from "./components/technologies/Technologies";
 import Project from "./components/project/Project";
+import Social from "./components/social/Social";
 
 function App() {
   return (
     <div className="App position-relative">
+      <Social></Social>
       <Header title="Henrique Neubert" backgroundColor="dark"></Header>
       <Banner
         title="Me chamo Henrique Neubert, sou Desenvolvedor Front End Junior"
