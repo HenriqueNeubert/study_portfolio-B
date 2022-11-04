@@ -13,7 +13,7 @@ export default (props) => {
   }
 
   return (
-    <div className="py-5 mainBanner d-flex align-items-center" style={style}>
+    <section className="py-5 mainBanner d-flex align-items-center" style={style}>
       <div className="container py-lg-5 py-0">
         <div className="d-flex" style={align}>
           <div className="d-flex flex-column col-lg-6" style={align}>
@@ -25,7 +25,7 @@ export default (props) => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

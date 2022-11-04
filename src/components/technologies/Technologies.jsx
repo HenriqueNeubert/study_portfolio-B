@@ -10,7 +10,7 @@ export default (props) => {
         <div className="mainEffect mainEffect--secondary">
           <BlockTitle title="TÉCNOLOGIAS" align="start" color="#ffffff" />
         </div>
-        <div className="technologiesCarroussel d-flex justify-content-around row">
+        <div className="technologiesCarroussel mt-3 d-flex justify-content-around row">
           <TechnologiesItem></TechnologiesItem>
         </div>
       </div>
