@@ -13,12 +13,12 @@ export default (props) => {
   }
 
   return (
-    <div class="py-5 mainBanner d-flex align-items-center" style={style}>
+    <div className="py-5 mainBanner d-flex align-items-center" style={style}>
       <div className="container py-lg-5 py-0">
         <div className="d-flex" style={align}>
           <div className="d-flex flex-column col-lg-6" style={align}>
             <h2>{props.title}</h2>
-            <p>{props.description}</p>
+            <p className="description">{props.description}</p>
             <div className="pt-4">
               <ButtonPrimary {...props}/>          
             </div>

@@ -6,7 +6,7 @@ export default props =>{
   }
 
   return(
-    <footer class="py-2" style={style}>
+    <footer className="py-2" style={style}>
       <div className="container">
         <div className="d-flex justify-content-between">
           <p className="fw-bold">

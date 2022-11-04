@@ -7,8 +7,8 @@ export default props =>{
 
   return(
     <section className="py-5">
-      <div className="container">
-        <BlockTitle title="PROJETOS" align="end"/>
+      <div className="py-lg-5 container mainEffect mainEffect mainEffect--secondary">
+        <BlockTitle title="PROJETOS" align="center" color="#ffffff"/>
       </div>
     </section>
   )

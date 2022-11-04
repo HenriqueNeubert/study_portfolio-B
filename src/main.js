@@ -1,3 +1,3 @@
-const header = document.querySelector(".mainBanner").getBoundingClientRect().height
-console.log(header);
+// const header = document.querySelector(".mainBanner").getBoundingClientRect().height
+// console.log(header);
 

@@ -6,14 +6,14 @@ export default props =>{
     justifyContent: props.align
   }
 
-  const border = {
-    borderColor: props.border
+  const color = {
+    color: props.color
   }
 
   return(
     <div>
       <div className="d-flex" style={align}>
-        <h3 className="fw-bold title--block" style={border}>
+        <h3 className="fw-bold title--block" style={color}>
           {props.title}
         </h3>
       </div>

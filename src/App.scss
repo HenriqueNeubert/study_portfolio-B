@@ -28,24 +28,34 @@ header{
 }
 
 .title--block{
-  padding: 1.2rem;
-  border: 1px solid #e337f3;
-  font-size: 1.2rem!important;
+  // padding: 1.2rem;
+  // border: 1px solid #e337f3;
+  color: #e337f3;
+  font-size: 2rem!important;
 }
 
 .mainEffect{
+  &.mainEffect--secondary{
+    h3, h2{
+      &::before{
+        background-color: #e337f3;
+      }
+    }
+  }
+  h3, h2{
   position: relative;
-  &::before{
-    position: absolute;
-    content: '';
+    &::before{
+      position: absolute;
+      content: '';
 
-    right: -90px;
-    bottom: 7px;
+      right: -90px;
+      bottom: 7px;
 
-    width: 80px;
-    height: 3px;
+      width: 80px;
+      height: 3px;
 
-    background-color: #e337f3;
+      background-color: #ffffff;
+    }
   }
 }
 
@@ -58,15 +68,23 @@ e 10px de altura para a barra horizontal */
 ::-webkit-scrollbar {
   width:10px!important;
   height: 10px;
+  border-radius: 10px!important;
+  opacity: 0.6!important;
+
   }
   
   /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
   ::-webkit-scrollbar-track {
-  background:#333!important;
+  background:#444!important;
+  border-radius: 10px!important;
+  opacity: 0.6!important;
+
   }
   
   /* aqui é a alça da barra, que demonstra a altura que você está na página
   estou colocando uma cor azul clara nela*/
   ::-webkit-scrollbar-thumb {
-  background: #2e9dd8!important;
+  background: #333!important;
+  border-radius: 10px!important;
+  opacity: 0.6!important;
   }
