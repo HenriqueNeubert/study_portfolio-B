@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Banner from "./components/banner/Banner";
 import Technologies from "./components/technologies/Technologies";
 import Project from "./components/project/Project";
+import Study from "./components/study/Study";
 import Social from "./components/social/Social";
 import { BiUpArrow } from "react-icons/bi";
 
@@ -26,6 +27,8 @@ function App() {
       <Technologies></Technologies>
 
       <Project></Project>
+
+      <Study></Study>
 
       <Footer
         copyRight="© 2022 henriqueneubert.dev@gmail.com"

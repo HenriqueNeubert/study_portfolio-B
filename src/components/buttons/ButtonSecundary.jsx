@@ -10,7 +10,7 @@ export default (props) => {
 
   return (
     <div className="d-flex" style={align}>
-      <button href={props.link} className="btn px-5 py-3">
+      <button href={props.link} className="btnSecondary btn btn-sm px-5 py-3">
         <p className="mb-0 text-white">{props.titleButton}</p>
       </button>
     </div>
