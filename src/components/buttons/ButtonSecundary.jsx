@@ -1,5 +1,6 @@
 import React from "react";
 import "./Buttons.scss"
+import { Link } from 'react-router-dom'
 
 export default (props) => {
 
@@ -10,9 +11,9 @@ export default (props) => {
 
   return (
     <div className="d-flex" style={align}>
-      <button href={props.link} className="btnSecondary btn btn-sm px-5 py-3">
+      <Link to="/study" className="btnSecondary btn btn-sm px-5 py-3">
         <p className="mb-0 text-white">{props.titleButton}</p>
-      </button>
+      </Link>
     </div>
   );
 };

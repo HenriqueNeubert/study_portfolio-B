@@ -1,11 +1,9 @@
-import ButtonSecundary from "../buttons/ButtonSecundary";
-import BlockTitle from "../BlockTitle";
-import ItemBlock from "../ItemBlock";
+import BlockTitle from "../../components/BlockTitle";
+import ItemBlock from "../../components/ItemBlock";
 import React from "react";
-import "./Study.scss";
 
-export default (props) => {
-  return (
+export default props => {
+  return(
     <section className="py-5 bgGradient2">
       <div className="py-lg-5 container mainEffect mainEffect mainEffect--secondary">
         <BlockTitle title="ESTUDOS" align="center" color="#ffffff" />
@@ -13,14 +11,13 @@ export default (props) => {
           <ItemBlock name="Calculadora"></ItemBlock>
           <ItemBlock name="Calculadora"></ItemBlock>
           <ItemBlock name="Calculadora"></ItemBlock>
-        </div>
-        <div className="mt-4">
-          <ButtonSecundary
-            alignAll="center"
-            titleButton="Ver Mais"
-          ></ButtonSecundary>
+          <ItemBlock name="Calculadora"></ItemBlock>
+          <ItemBlock name="Calculadora"></ItemBlock>
+          <ItemBlock name="Calculadora"></ItemBlock>
+          <ItemBlock name="Calculadora"></ItemBlock>
+          <ItemBlock name="Calculadora"></ItemBlock>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
